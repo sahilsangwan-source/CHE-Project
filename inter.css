@@ -1,0 +1,42 @@
+body{
+    background-color:black;
+    color:slategrey;
+}
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.title{
+    color:rgb(146, 124, 24);
+}
+img{
+    border-radius:50%;
+}
+.info{
+    border-radius: 20px;
+    background-color:aliceblue;
+    height:100%;
+    width:60%;
+    margin: auto;
+    text-align: center;
+
+}
+.heading{
+    text-align: center;
+}
+.infoin{
+    border-radius: 20px;
+    background-color:aliceblue;
+    height:100%;
+    width:60%;
+    margin:auto; text-align: center;
+    padding-left:20px; padding-right:20px;
+}
+.footurbutton{
+    color:silver;
+    height:20px;
+    width:50px;
+}
+

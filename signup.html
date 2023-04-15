@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>sign in</title>
+    <style>
+        body{
+            background-image: url(photo.jpg);
+        }
+        .sign{
+            border: 0px solid;
+            width: 370px;
+            height: 600px;
+            margin-top: 70px;
+            margin-left: 40%;
+
+        }
+        .sign{
+            background-color: white;
+            border-radius: 15px;
+        }
+        .log{
+            text-align: center;
+            height: 30px;
+            width: 400px;
+            font-size: 35px;
+            font-weight: bolder;
+            padding-top: 20px;
+        }
+        .info{
+            padding-top: 20px;
+            padding-left: 35px;   
+        }
+        .information{
+            padding-left: 10px;
+        }
+        .input{
+            height: 30px;
+            width: 270px;
+            border-radius: 20px;
+            border: 1px solid gray;
+            margin-top: 7px;
+            padding: 0 12px;
+        }
+        .login{
+            background-image:url(photo.jpg);
+            height: 30px;
+            width: 270px;
+            text-align: center;
+            margin-left: 50px;
+            margin-top: 30px;
+            padding-top: 10px;
+            border-radius: 20px;
+        }
+        #login2{
+            text-decoration: none;
+            color: antiquewhite;
+            font-size: bolder;
+        }
+        .text1{
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .signin{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .logo{
+            height: 30px;
+            width: 30px;
+            margin: 7px;
+        }
+        .signup{
+            text-align: center;
+            margin-top: 5px;
+            font-size: medium;
+        }
+        .last{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }    
+    </style>
+</head>
+<body>
+    <div class="sign">
+        <div class="log">Sign Up</div>
+        <div class="info">
+            <div class="information">Name</div>
+            <div><input class="input" placeholder="Enter Name" required=""></div> 
+        </div>
+        <div class="info">
+            <div class="information">Email</div>
+            <div><input type="email" placeholder="Enter Email" class="input" required=""></div>
+        </div>
+        <div class="info">
+            <div class="information">Password</div>
+            <div><input class="input" type="password" placeholder="Enter Password" required=""></div>
+            <br>
+            <div><input class="input" type="password" placeholder="Confirm password" required="" ></div>
+
+        </div>
+        <div class="login"><a href="" id="login2">Sign Up</a></div>
+        <div class="text1">Or Sign Up Using</div>
+        
+        <div class="signin">   
+            <div><a href="https://www.facebook.com/login/"><img src="facebook logo.jpg" alt="facebook" class="logo"></a>
+           <a href=""><img src="googlelogo.jpg" alt="google" class="logo"></a></div>
+        </div>
+        <div class="signup">
+            <h>Already a user?</h>
+            <br> <br>
+            <a href="login.html" class="last">Login</a>
+    </div>
+</body>
+</html>
